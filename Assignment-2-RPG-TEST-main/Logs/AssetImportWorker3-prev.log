@@ -1,0 +1,313 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65277 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/College/Assignment-2-RPG-TEST-main/Assignment-2-RPG-TEST-main
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+58248
+Successfully changed project path to: E:/College/Assignment-2-RPG-TEST-main/Assignment-2-RPG-TEST-main
+E:/College/Assignment-2-RPG-TEST-main/Assignment-2-RPG-TEST-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 58.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/College/Assignment-2-RPG-TEST-main/Assignment-2-RPG-TEST-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003826 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (413ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (295ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+				TypeCache.Initialize (66ms)
+					TypeCache.ScanAssembly (65ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003389 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\College\Assignment-2-RPG-TEST-main\Assignment-2-RPG-TEST-main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\College\Assignment-2-RPG-TEST-main\Assignment-2-RPG-TEST-main\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (58.3 KB). Loaded Objects now: 4214.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 2.588600 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.150600 ms  DeleteObjects: 0.061100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 379799.885999 seconds.
+  path: Assets/Tile Palletes/Overworld_4.asset
+  artifactKey: Guid(10da3694832323545a6c334cbee5d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_4.asset using Guid(10da3694832323545a6c334cbee5d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c833fba2e6e39c35bd43d26e0493dbab') in 0.079044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tile Palletes/Overworld_23.asset
+  artifactKey: Guid(78d36765006506b4db1793ec3dd0bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_23.asset using Guid(78d36765006506b4db1793ec3dd0bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168a049f1228997996f3d2545b4d6fe6') in 0.014087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palletes/Overworld_14.asset
+  artifactKey: Guid(0bfdbd6c9bc09334fb520b5b2749b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_14.asset using Guid(0bfdbd6c9bc09334fb520b5b2749b16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4dc88b1ee88e9d1230ccbe282c0a57') in 0.015888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tile Palletes/Overworld_22.asset
+  artifactKey: Guid(b38b0e252a052274cbca53b6d004ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_22.asset using Guid(b38b0e252a052274cbca53b6d004ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb37325c2270529cca1280bfd685e1e') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tile Palletes/Overworld_27.asset
+  artifactKey: Guid(cccebc296bf78b042b3f5eb2666e5253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_27.asset using Guid(cccebc296bf78b042b3f5eb2666e5253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ecaaadd03808b40128d852ac2dae93') in 0.007944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tile Palletes/Overworld_38.asset
+  artifactKey: Guid(979d105e0e2c3964fa05af1f4e33adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_38.asset using Guid(979d105e0e2c3964fa05af1f4e33adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a130082f57d5c79a1d3e200043e5d311') in 0.009654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tile Palletes/Overworld_11.asset
+  artifactKey: Guid(825e6f85af893e947b45a1fc6a0e8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_11.asset using Guid(825e6f85af893e947b45a1fc6a0e8f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe3b9787887018420cd36a9bac95d3f') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile Palletes/Overworld_19.asset
+  artifactKey: Guid(d5b5203805741894192455b3380dc406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_19.asset using Guid(d5b5203805741894192455b3380dc406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afd89bb9a0cdeede446c131b4090152') in 0.014725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tile Palletes/Overworld_30.asset
+  artifactKey: Guid(3fef3615e89392f42b5dce3d10be3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_30.asset using Guid(3fef3615e89392f42b5dce3d10be3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118d95a0cbf8d0e3494a8b7398a8c831') in 0.011084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.252972 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_1.asset
+  artifactKey: Guid(c1c1c41bb57661049b49ab2336b3861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_1.asset using Guid(c1c1c41bb57661049b49ab2336b3861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529181bed976a89c4eaf0cfe8050a337') in 0.011218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_38.asset
+  artifactKey: Guid(92d97ddc110fd8c4d84084e0ccf755f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_38.asset using Guid(92d97ddc110fd8c4d84084e0ccf755f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a122325ea832ba520172a5163d1030c') in 0.006770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_49.asset
+  artifactKey: Guid(43d8e95e9f17ea1459c3133049307615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_49.asset using Guid(43d8e95e9f17ea1459c3133049307615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f5b44819534caacef0ca5588171d06') in 0.007257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_15.asset
+  artifactKey: Guid(3cb85f34de6e2d5428086cdabddba471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_15.asset using Guid(3cb85f34de6e2d5428086cdabddba471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d9598ed03606dad2d7c1942a12e3a2') in 0.006634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_13.asset
+  artifactKey: Guid(8db372878300e194089faff9cd55429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_13.asset using Guid(8db372878300e194089faff9cd55429c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec7cf39ad1de0f6bd6f6b1eb24686ca') in 0.011803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_11.asset
+  artifactKey: Guid(5b24a4548ba147340930c885f96c2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_11.asset using Guid(5b24a4548ba147340930c885f96c2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf89288481645fda313fbeb56c4d147') in 0.008756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_39.asset
+  artifactKey: Guid(dc0fa7a32985ad04fae200d0211c0460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_39.asset using Guid(dc0fa7a32985ad04fae200d0211c0460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61220cfa755cb74b109ea9bbba66ad30') in 0.010047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_5.asset
+  artifactKey: Guid(cec03c6bb46879246a1c1426f27f24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_5.asset using Guid(cec03c6bb46879246a1c1426f27f24ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc878f4cf44fd1fe81a5a9b25ed36d9a') in 0.007419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_25.asset
+  artifactKey: Guid(130fdfb3a4907594d87ab2a647c9971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_25.asset using Guid(130fdfb3a4907594d87ab2a647c9971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f39c1d70908c96ac7e8a1c755ef2ac') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_32.asset
+  artifactKey: Guid(6a79d14d88a76e341bf9b061d9363508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_32.asset using Guid(6a79d14d88a76e341bf9b061d9363508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f29160ed78fac31aed957d9e3bda6b2') in 0.007834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_23.asset
+  artifactKey: Guid(57a654d973b0fa94d940661a5b37c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_23.asset using Guid(57a654d973b0fa94d940661a5b37c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4fd5e3f37e3a7cec72fb8c96bbb143') in 0.007844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_30.asset
+  artifactKey: Guid(8f5aff65d2b24f842877e60641bd60ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_30.asset using Guid(8f5aff65d2b24f842877e60641bd60ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e115aee00a03f19387639effbd2776') in 0.007012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.499024 seconds.
+  path: Assets/Scripts/Secondary Tile Palletes/objects 1_56.asset
+  artifactKey: Guid(d4f13d01bcab4e0478b136dc75f1cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Secondary Tile Palletes/objects 1_56.asset using Guid(d4f13d01bcab4e0478b136dc75f1cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8073007e46a5070351707d695e874d66') in 0.016756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179673 seconds.
+  path: Assets/Tile Palletes/Overworld_59.asset
+  artifactKey: Guid(0cc6d51bd2f59434992f5af083fcfb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_59.asset using Guid(0cc6d51bd2f59434992f5af083fcfb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdf9ae70376992d4a01aefafef24449') in 0.014594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile Palletes/Overworld_65.asset
+  artifactKey: Guid(bb374a1abbfeb3645b8d573199b8b6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palletes/Overworld_65.asset using Guid(bb374a1abbfeb3645b8d573199b8b6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169599c4503d27963f9e3318b366652f') in 0.008605 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
